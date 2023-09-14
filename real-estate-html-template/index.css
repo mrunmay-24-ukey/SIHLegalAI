@@ -1,0 +1,85 @@
+
+
+
+
+/* how it works section */
+
+.benefits-section{
+    margin: 0 auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr );
+}
+
+.cards{
+    /* border: 1px solid black; */
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 2;
+    border-radius: 8px;
+
+}
+
+.cards p{
+    margin-top: 2rem;
+    color: #4bb98e;
+    
+}
+
+.cards-steps{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    height: 27px;
+    width: 27px;
+    border:1px solid #4bb98e ;
+    border-radius: 50%;
+    z-index: 20;
+    
+}
+
+.cards-steps-bg{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #4bb98e;
+    left :50%;
+    transform: translate(-50% , -50%);
+    top: -5px;
+    z-index: 10;
+}
+
+
+
+
+
+/* why choose section */
+.choose-big-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-container{
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.choose-text{
+    margin-left: 1rem;
+}
+
+.tick{
+    font-size: 45px;
+    
+}
